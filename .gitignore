@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# MLflow local tracking data
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+mlruns/
+
+# Test and editor files
+.pytest_cache/
+.coverage
+.vscode/
+.idea/
