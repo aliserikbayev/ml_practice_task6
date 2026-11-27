@@ -85,6 +85,7 @@ def main() -> None:
             signature=signature,
             input_example=X_test[:5],
             registered_model_name=REGISTERED_MODEL_NAME,
+            skops_trusted_types=["sklearn.tree._tree.Tree"]
         )
 
         print(f"MLflow tracking URI: {TRACKING_URI}")
